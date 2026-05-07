@@ -1,41 +1,88 @@
-# British Airways Virtual Data Science Internship
-A risk-free way to experience work on the job with us at British Airways. Practice your skills with example tasks and build your confidence to ace your applications.
+# British Airways Data Science Virtual Internship
 
-This repository contains my work for the British Airways Data Science Virtual Experience Program. 
-The internship simulates real-world data science tasks such as data exploration, analysis, and predictive modeling.
+## Project Overview
 
-The goal was to extract insights from data and build models that support business decision-making.
+This repository contains my work completed as part of the British Airways Data Science Virtual Internship. The internship focused on solving real business problems using data analysis, machine learning, and business reasoning within the airline industry.
 
-## Task 1: Modeling lounge eligibility at Heathrow Terminal 3
+The project required translating business challenges into data-driven solutions that could support operational planning and customer experience improvements.
 
-**Description** :
-Lounge access is a key part of the premium travel experience, and understanding lounge demand is crucial for British Airways (BA) to maintain high standards while optimizing space and resources. As the airline plans for future operations at Heathrow Terminal 3, it’s important to anticipate demand across different types of lounge access, each associated with varying levels of customer loyalty and travel class.
+---
 
-As BA plans for the future, especially with changes in flying schedules and fleet strategy, it's important to forecast how many passengers will be eligible to use each lounge on a typical day. However, future schedules can be unpredictable, which means we need a modeling approach that is both flexible and scalable.
+## Internship Objective
 
-That’s where you come in. Your job is to create a lookup table that BA can use to estimate lounge eligibility percentages across different flight groupings. This will allow the business to anticipate lounge demand without needing exact flight or aircraft details.
+The internship simulated the role of a data scientist working with British Airways stakeholders. The objective was not only to analyze data and build models, but also to provide practical insights that could support strategic and operational decision-making.
 
-To do this well, you’ll need to think critically about how to group flights in a meaningful way—by time of day, route type, or regional destination, for example, and apply logical assumptions to estimate how many travelers fall into each lounge tier. These estimates will help the Airport Planning team better understand where lounge investments may be needed as operations evolve.
+---
 
-In short, your table and justification will help translate data into decisions—and ensure BA continues to deliver a seamless experience for its most valued customers.
+## Tasks Summary
 
-**Objective** : 
-* Use airline data and modeling helps British Airways forecast lounge demand and plan for future capacity planning
-* Review lounge eligibility criteria and explore how customer groupings can inform lounge demand assumptions
-* Create a reusable lookup table and written justification that British Airways can apply to future flying schedules.
+### Task 1: Lounge Eligibility Demand Estimation
 
+The first task focused on forecasting airport lounge demand at Heathrow Terminal 3 by estimating the percentage of passengers eligible for lounge access across different flight groupings.
 
-## Task 2: Predicting customer buying behaviour
+The challenge was that future flight schedules and aircraft details may change over time, making direct forecasting difficult. To address this, the goal was to design a flexible and scalable lookup table that estimates lounge eligibility percentages based on logical flight groupings such as:
 
-**Description**: 
-Customers are more empowered than ever because they have access to a wealth of information at their fingertips. This is one of the reasons the buying cycle is very different to what it used to be. Today, if you’re hoping that a customer purchases your flights or holidays as they come into the airport, you’ve already lost! Being reactive in this situation is not ideal; airlines must be proactive in order to acquire customers before they embark on their holiday.
+- Time of day  
+- Route type  
+- Regional destination  
+- Travel class and customer loyalty assumptions  
 
-This is possible with the use of data and predictive models. The most important factor with a predictive model is the quality of the data you use to train the machine learning algorithms. For this task, you must manipulate and prepare the provided customer booking data so that you can build a high-quality predictive model.
+This task required combining business understanding with analytical reasoning to create a solution that could help the Airport Planning team anticipate future lounge demand and support decisions around lounge capacity and investment planning.
 
-With your predictive model, it is important to interpret the results in order to understand how “predictive” the data really was and whether we can feasibly use it to predict the target outcome (customers buying holidays). Therefore, you should evaluate the model’s performance and output how each variable contributes to the predictive model’s power.
+My role involved:
 
-**Objective: ** 
-* Prepare a dataset.
-* Train a machine learning model.
-* Evaluate and present your findings.
-* Use data and predictive models helps British Airways acquire customers before they embark on their holidays.
+- Structuring flight groupings in a meaningful and scalable way  
+- Applying assumptions based on customer behavior and airline operations  
+- Translating business requirements into an analytical framework  
+- Presenting insights in a practical format for decision-making  
+
+---
+
+### Task 2: Booking Prediction Model
+
+The second task focused on predicting whether a customer would complete a booking. This was a supervised machine learning problem with a significant class imbalance, where the majority of customers did not complete a booking.
+
+The workflow included:
+
+- Data preprocessing and feature engineering  
+- Handling class imbalance using appropriate techniques  
+- Model selection and comparison (Logistic Regression, Random Forest, XGBoost)  
+- Hyperparameter tuning using cross-validation  
+- Selecting appropriate evaluation metrics based on business objectives  
+- Threshold tuning to balance recall and precision  
+
+The final model achieved strong recall performance, helping identify the majority of potential booking customers while supporting customer targeting and marketing decisions.
+
+---
+
+## My Role as a Data Scientist
+
+Throughout the internship, I was responsible for:
+
+- Understanding business problems and translating them into analytical tasks  
+- Cleaning, preparing, and transforming data  
+- Designing scalable analytical solutions  
+- Selecting and evaluating machine learning models  
+- Interpreting results in a business context  
+- Communicating insights that support operational and strategic decisions  
+
+The focus was not only on technical implementation, but also on creating solutions that deliver measurable business value.
+
+---
+
+## Key Outcomes
+
+Through these tasks, the project demonstrated how data science can support airline operations and customer experience by:
+
+- Improving planning for lounge capacity and resource allocation  
+- Identifying customers likely to complete bookings  
+- Supporting targeted marketing strategies  
+- Enabling more informed business decisions using data-driven insights  
+
+---
+
+## Conclusion
+
+This internship provided hands-on experience in applying data science to real-world business problems in the airline industry. It reinforced the importance of combining technical skills with business understanding to create practical and scalable solutions.
+
+The project also highlighted that effective data science is not only about building models, but about helping organizations make better decisions through data.
